@@ -10,10 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("🎯🎯🎯 \nPUT THE BULLSEYE AS CLOSE AS YOU CAN TO")
+            Text("🎯🎯🎯 \n PUT THE BULLSEYE AS CLOSE AS YOU CAN TO")
                 .multilineTextAlignment(.center)
                 .padding(.horizontal)
-            Text(/*@START_MENU_TOKEN@*/"89"/*@END_MENU_TOKEN@*/)
+            Text("57")
+                .bold()
+                .font(Font.system(size: 30))
             HStack {
                 Text(/*@START_MENU_TOKEN@*/"1"/*@END_MENU_TOKEN@*/)
                     .padding(.leading)
