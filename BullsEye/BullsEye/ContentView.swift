@@ -21,7 +21,9 @@ struct ContentView: View {
                     .padding(.leading)
                 VStack {
                     Slider(value: .constant(50), in: 1.0...100.0)
-                    Button(action: {}) {
+                    Button(action: {
+                        print("Hello there!")
+                    }) {
                         Text("HIT ME")
                     }
                 }
